@@ -30,20 +30,20 @@ class _hiiState extends State<hii> {
                           height:40,
                         ),
                         Container(
-                          height:100,
-                          width:400,
+                          height:200,
+                          width:900,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
 
                             color:Colors.transparent.withOpacity(0.01),
                           ),
-                          child: Center(child: Text("        GRADE \n CALCULATOR",style: GoogleFonts.alegreya(color: Colors.white,fontSize:33,fontWeight: FontWeight.bold ))),
+                          child: Center(child: Text("        GRADE \n CALCULATOR",style: GoogleFonts.alegreya(color: Colors.white,fontSize:55,fontWeight: FontWeight.bold ))),
                         ),
                          SizedBox(
-                           height:90-50
+                           height:18
                          ),
                         CircleAvatar(
-                          radius: 100,
+                          radius: 180,
                             backgroundImage:AssetImage("assets/hii.png"),
                           
                         ),

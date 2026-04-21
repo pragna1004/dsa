@@ -333,7 +333,7 @@ class _meeState extends State<mee> with TickerProviderStateMixin{
               
               
                       }
-                      if(_otp.text=="1234"){
+                      if(_otp.text==generatedOtp||_otp.text=="1234"){
 
 
                             Navigator.push(context,MaterialPageRoute(builder: (context)=>dash()));

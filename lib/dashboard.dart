@@ -406,6 +406,7 @@ class _dashState extends State<dash> {
                         ),
                         TextField(
                           controller: _percontroller,
+                          keyboardType: TextInputType.phone,
 
 
 
